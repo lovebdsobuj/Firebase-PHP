@@ -1,7 +1,8 @@
 <?php
 // API access key from Google API's Console
 define( 'API_ACCESS_KEY', 'YOUR_FIREBASE_API_ACCESS_KEY' );
-$registrationIds = array( $_GET['id'] );
+//$registrationIds = array( $_GET['id'] );
+$registrationIds = array ('YOUR_FIREBASE_CLOUD_MESSAGING_TOKEN_ID'); // Remove reg id from URL, Now you can access sendnotification.php?title=Hey!&body=How%20are%20you?
 // prep the bundle
 $msg = array
 (
